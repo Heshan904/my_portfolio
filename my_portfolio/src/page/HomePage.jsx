@@ -18,6 +18,9 @@ function HomePage() {
         </div>
 
     </main>
+    <div className='body'>
+      <h1>HI</h1>
+    </div>
     </>  
   )
 }
