@@ -33,3 +33,15 @@ p{
 .body{
     margin-top: 10%;
 }
+.cbi{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    gap: 60px;
+}
+.bi{
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;
+    background-color: rgb(213, 213, 213);
+}

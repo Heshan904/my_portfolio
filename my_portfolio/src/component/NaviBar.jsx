@@ -1,13 +1,14 @@
 import React from 'react'
 import img from '../img/logo.png'
 import './navibar.css'
+import { Link } from 'react-router-dom';
 
 function NaviBar() {
   return (
     <div className='navi'>
-        <button><img src={img} alt="" className='logo' /></button>
+        <Link to="/"><img src={img} alt="" className='logo' /></Link>
         <div className='btn'>
-            <button>About me</button>
+            <Link to="/about"><button>About me</button></Link>
             <button>Skills</button>
             <button>Projects</button>
             <button>Contact</button>
