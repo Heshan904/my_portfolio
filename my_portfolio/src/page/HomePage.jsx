@@ -6,6 +6,10 @@ import tg from '../img/paper-plane.png'
 import gh from '../img/github-logo.png'
 import mi from '../img/email.png'
 import Skill from '../component/Skill'
+import boy from '../img/boy.png'
+import AnimatedImage from '../component/Animate'
+
+
 
 
 
@@ -21,15 +25,13 @@ function HomePage() {
             <h1 className='heshan'>Heshan Hasitha</h1>
             <p className='p'>Full Stack Web Development and Graphic Design. </p>
             <div className='cbi'>
-              <button className='bi'><img src={tg} alt="" /></button>
-              <button className='bi'><img src={gh} alt="" /></button>
-              <button className='bi'><img src={mi} alt="" /></button>
+              <a href='http://t.me/heshan904' target='_blank' rel='noopener noreferrer'> <button className='bi'><img src={tg} alt="" /></button></a>
+              <a href='https://github.com/' target='_blank' rel='noopener noreferrer'><button className='bi'><img src={gh} alt="" /></button></a>
+              <a href='mailto:your-heshanhasitha904@gmail.com' target='_blank' rel='noopener noreferrer'><button className='bi'><img src={mi} alt="" /></button></a>
             </div>
 
         </div>
-        <div className='pic'>
-            <h1>pic</h1>
-        </div>
+        <AnimatedImage src={boy} alt="Cool Image"/>
 
     </main>
     <div className='body'>

@@ -9,9 +9,9 @@ function NaviBar() {
         <Link to="/"><img src={img} alt="" className='logo' /></Link>
         <div className='btn'>
             <Link to="/about"><button>About me</button></Link>
-            <button>Skills</button>
-            <button>Projects</button>
-            <button>Contact</button>
+            <Link to = "/skill"><button>Skills</button></Link>
+            <Link to="/project"><button>Projects</button></Link>
+            <Link to="/contact"><button>Contact</button></Link>
         </div>
     </div>
   )
