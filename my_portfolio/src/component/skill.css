@@ -1,0 +1,17 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 100px;
+    animation: slideAndScale 1s ease forwards;
+}
+.sk{
+    margin-left: auto;
+    margin-right: 0;
+
+}
+.use{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
