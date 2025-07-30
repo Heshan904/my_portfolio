@@ -23,7 +23,7 @@ function Project() {
                 <div className="pphoto" style={bgimage}>
                     <div className="label">
                         <h4 style={{fontSize:'20px'}}>Text Editor</h4>
-                        <span style={{fontSize:'20px',fontFamily:"'Raleway', sans-serif",fontSize:"15px"}}>This is a basic text editor built with HTML, CSS, and JavaScript.</span>
+                        <span style={{fontSize:'20px',fontFamily:"'Raleway', sans-serif"}}>This is a basic text editor built with HTML, CSS, and JavaScript.</span>
                         <button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center"}}>View preview</button>
                     </div>
                 </div>
