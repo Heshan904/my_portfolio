@@ -1,0 +1,10 @@
+.contactm{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.box{
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+}
