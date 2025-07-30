@@ -24,7 +24,7 @@ function Project() {
                     <div className="label">
                         <h4 style={{fontSize:'20px'}}>Text Editor</h4>
                         <span style={{fontSize:'15px',fontFamily:"'Raleway', sans-serif"}}>This is a basic text editor built with HTML, CSS, and JavaScript.</span>
-                        <button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center"}}>View preview</button>
+                        <a href="https://heshan904.github.io/Text-editor/" target='_blank'><button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center"}}>View preview</button></a>
                     </div>
                 </div>
                 <div className="pphoto">
