@@ -1,0 +1,8 @@
+.idomain{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 50px;
+    padding: 10%;
+    animation: slideAndScale 1s ease forwards;
+}
