@@ -5,6 +5,7 @@ import HomePage from './page/HomePage';
 import SkillPage from './page/SkillPage';
 import React from 'react';
 import Project from './page/Project';
+import Contact from './page/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/skill" element={<SkillPage/>} />
         <Route path="/project" element={<Project/>} />
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
   </BrowserRouter>
   );
