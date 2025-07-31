@@ -24,15 +24,9 @@ function Project() {
             <div className="pro">
                 <div className="pphoto" style={bgimage}>
                     <div className="label">
-<<<<<<< HEAD
-                        <h4 style={{fontSize:'20px'}}>Text Editor</h4>
-                        <span style={{fontSize:'15px',fontFamily:"'Raleway', sans-serif"}}>This is a basic text editor built with HTML, CSS, and JavaScript.</span>
-                        <a href="https://heshan904.github.io/Text-editor/" target='_blank' rel='noopener noreferrer'><button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center"}}>View preview</button></a>
-=======
                         <h4 style={{fontSize:'20px',color:'white'}}>Text Editor</h4>
                         <span style={{fontSize:'15px',fontFamily:"'Raleway', sans-serif" ,color:'white'}}>This is a basic text editor built with HTML, CSS, and JavaScript.</span>
                         <a href="https://heshan904.github.io/Text-editor/" target='_blank' rel='noreferrer'><button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center" ,color:'white'}}>View preview</button></a>
->>>>>>> 26a09bb56f23a821f76209558b6ac6a52b602d85
                     </div>
                 </div>
                 <div className="pphoto" style={photop}>
