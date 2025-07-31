@@ -11,6 +11,8 @@
     background-size: cover;
     background-position: center;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    
+    animation: slideAndScale 1s ease forwards;
 
 }
 .send {

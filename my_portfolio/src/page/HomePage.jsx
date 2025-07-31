@@ -8,6 +8,7 @@ import mi from '../img/email.png'
 import Skill from '../component/Skill'
 import boy from '../img/boy.png'
 import AnimatedImage from '../component/Animate'
+import EmailForm from '../component/Email'
 
 
 
@@ -36,6 +37,7 @@ function HomePage() {
     </main>
     <div className='body'>
       <Skill/>
+      <EmailForm/>
     </div>
     <Footer/>
     </>  
