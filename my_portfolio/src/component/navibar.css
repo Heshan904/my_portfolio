@@ -1,7 +1,7 @@
 /* Use relative units and flexbox for layout */
 .logo {
-    height: 5vw;
-    width: 5vw;
+    height: 4vw;
+    width: 4vw;
 }
 
 .navi {
@@ -12,7 +12,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 2vw 4vw;
+    padding: 0.5vw 4vw;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 100;
     box-sizing: border-box;
@@ -46,7 +46,7 @@ button:hover {
     .navi {
         flex-direction: row;
         align-items: flex-start;
-        padding: 3vw 2vw;
+        padding: .5vw 2vw;
     }
     .btn {
         gap: 3vw;
@@ -65,7 +65,7 @@ button:hover {
 
 @media (max-width: 400px) {
     .navi {
-        padding: 2vw .5vw;
+        padding: 1vw .5vw;
     }
     .btn {
         gap: 10px;

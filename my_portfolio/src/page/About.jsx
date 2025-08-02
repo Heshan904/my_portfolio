@@ -16,7 +16,8 @@ export default function About() {
                 <br/>
                 <div className="para">
                 <p>Welcome to my portfolio! I am a Full Stack Web Developer and Graphic Designer with a passion for creating innovative solutions. My journey in web development has equipped me with the skills to build dynamic and responsive websites, while my design background allows me to create visually appealing user interfaces.</p>
-                <p>I believe in continuous learning and staying updated with the latest technologies. My goal is to combine functionality with aesthetics to deliver exceptional user experiences.</p>
+                
+                <p>My hobbies include wildlife photography, hiking and exploring new technologies. I enjoy working on creative projects that challenge my skills and push me to learn more.</p>
                 </div>
             </div>
         </div>

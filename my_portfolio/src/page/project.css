@@ -42,7 +42,6 @@
 .label {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     border-radius: 2vw;
     width: 100%;
     max-width: 600px;
@@ -51,6 +50,7 @@
     color: #fff;
     text-align: center;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 /* 5. Responsive images */
