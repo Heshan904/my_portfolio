@@ -6,6 +6,7 @@
 .name{
     padding-top: 10%;
     padding-left: 10%;
+    width: 100vw
 }
 .pic{
     margin-left: auto;
@@ -14,9 +15,7 @@
 
 }
 .boy{
-    height: 600px;
-    width: 600px;
-    margin-left: auto;
+    width: 100vw;
     padding-right: 20px;
     margin-top: auto;
     bottom: 0;
