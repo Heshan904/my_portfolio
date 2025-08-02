@@ -1,57 +1,92 @@
-.main{
-    display: flex;
-    flex-direction: row;
-    animation: slideAndScale 1s ease forwards;
-}
-.name{
-    padding-top: 10%;
-    padding-left: 10%;
-    width: 100vw
-}
-.pic{
-    margin-left: auto;
-    margin-top: 25%;
-    margin-right: 5%;
+/* ...existing code... */
 
+/* Responsive styles */
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .name {
+    padding-top: 40px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .boy {
+    height: 350px;
+    width: 350px;
+    padding-right: 0;
+    margin: 30px auto 0 auto;
+    display: block;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .p {
+    font-size: 16px;
+  }
+  .cbi {
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .bi {
+    width: 60px;
+    height: 60px;
+  }
+  .body {
+    margin-top: 40px;
+    padding: 0 10px;
+  }
 }
-.boy{
-    width: 100vw;
-    padding-right: 20px;
-    margin-top: auto;
-    bottom: 0;
 
+@media (max-width: 600px) {
+  .main {
+    padding: 10px;
+  }
+  .name {
+    padding-top: 20px;
+  }
+  .boy {
+    height: 180px;
+    width: 180px;
+    margin: 20px auto 0 auto;
+  }
+  h1 {
+    font-size: 22px;
+    padding-top: 10px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .p {
+    font-size: 13px;
+  }
+  .cbi {
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .bi {
+    width: 40px;
+    height: 40px;
+  }
+  .body {
+    margin-top: 20px;
+    padding: 0 5px;
+  }
 }
-.p{
-    color: rgb(157, 157, 157);
 
-}
-.heshan{
-    padding-top: 30px;
-}
-
-h1{
-    font-weight: 700;
-    font-size: 60px;
-}
-p,h1,h4{
-  font-family: 'Raleway', sans-serif;
-}
-p{
-    font-size: 20px;
+/* Make images and buttons scale nicely */
+.bi img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 
-.body{
-    margin-top: 10%;
+/* Ensure main container doesn't overflow */
+.main, .body {
+  width: 100%;
+  box-sizing: border-box;
 }
-.cbi{
-    display: flex;
-    flex-direction: row;
-    margin-top: 75px;
-    gap: 60px;
-}
-.bi{
-    width: 75px;
-    height: 75px;
-    border-radius: 20%;
-    background-color: rgb(213, 213, 213);
-}
+
+/* ...existing code... */
