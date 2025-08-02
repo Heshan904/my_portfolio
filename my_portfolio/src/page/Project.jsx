@@ -42,7 +42,7 @@ function Project() {
                     <div className="label">
                         <h4 style={{fontSize:'20px',color:'white'}}>My portfolio</h4>
                         <span style={{fontSize:'15px',fontFamily:"'Raleway', sans-serif" ,color:'white'}}>I finished my portfolio website using React.</span>
-                        <a href="https://my-portfolio-ebug00avd-hesahn904s-projects.vercel.app" target='_blank' rel='noreferrer'><button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center" ,color:'white'}}>View preview</button></a>
+                        <a href="https://my-portfolio-theta-ivory-88.vercel.app/" target='_blank' rel='noreferrer'><button style={{border:"2px solid black", borderRadius:"5px", width:"fit-content", cursor:"pointer",fontSize:"10px",alignSelf:"center" ,color:'white'}}>View preview</button></a>
                     </div>
                 </div>
             </div>
