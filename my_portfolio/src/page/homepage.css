@@ -118,12 +118,12 @@ p, h1, h4 {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .main {
         padding: 8vw 1vw;
     }
     .boy {
-        max-width: 140px;
+        max-width: 120px;
     }
     h1 {
         font-size: 1.2rem;

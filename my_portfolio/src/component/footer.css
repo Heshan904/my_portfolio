@@ -69,7 +69,7 @@ img:hover {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .footer {
 
         min-height: 20vh;
