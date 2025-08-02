@@ -1,30 +1,94 @@
-footer{
+footer {
     background-image: url('../img/footer.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-
 }
-.footer{
-    height: 500px;
+
+.footer {
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding-top: 250px;
+    gap: 2vw;
+    padding-top: 15vw;
+    padding-bottom: 4vw;
+    box-sizing: border-box;
 }
-.icon{
+
+.icon {
     display: flex;
     flex-direction: row;
-    gap: 60px;
-
+    gap: 4vw;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-button{
+
+button {
     background: none;
     border: none;
-
+    padding: 0;
+    cursor: pointer;
 }
-img{
-    width: 50px;
-    height: 50px;
+
+img {
+    width: 3vw;
+    min-width: 30px;
+    max-width: 50px;
+    height: auto;
+    transition: transform 0.2s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive text example */
+.footer p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1vw 0 0 0;
+    color: #333;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 900px) {
+    .footer {
+        min-height: 30vh;
+        padding-top: 10vw;
+        gap: 3vw;
+    }
+    .icon {
+        gap: 3vw;
+    }
+    img {
+        width: 40px;
+        max-width: 40px;
+    }
+    .footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+
+        min-height: 20vh;
+        padding-top: 6vw;
+        gap: 2vw;
+        padding-bottom: 2vw;
+    }
+    .icon {
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        align-items: center;
+    }
+    img {
+        width: 30px;
+        max-width: 30px;
+    }
+    .footer p {
+        font-size: 0.9rem;
+        padding: 0 2vw;
+    }
 }

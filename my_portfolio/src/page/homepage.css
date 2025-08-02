@@ -1,57 +1,154 @@
-.main{
+/* 1. Use relative units and flexbox/grid for layout */
+.main {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60vh;
+    padding: 4vw 5vw;
+    box-sizing: border-box;
     animation: slideAndScale 1s ease forwards;
 }
-.name{
-    padding-top: 10%;
-    padding-left: 10%;
-    width: 100%;
+
+.name {
+    padding-top: 5vw;
+    padding-left: 0;
+    width: 50%;
+    min-width: 280px;
 }
-.pic{
+
+.pic {
     margin-left: auto;
-    margin-top: 25%;
-    margin-right: 5%;
-
+    margin-top: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
 }
-.boy{
-    width: 100vw;
-    padding-right: 20px;
-    margin-top: auto;
-    bottom: 0;
 
+.boy {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-right: 0;
+    margin-top: 0;
+    display: block;
 }
-.p{
+
+.p {
     color: rgb(157, 157, 157);
-
-}
-.heshan{
-    padding-top: 30px;
+    font-size: 1.2rem;
+    text-align: left;
 }
 
-h1{
+.heshan {
+    padding-top: 2vw;
+}
+
+h1 {
     font-weight: 700;
-    font-size: 60px;
-}
-p,h1,h4{
-  font-family: 'Raleway', sans-serif;
-}
-p{
-    font-size: 20px;
+    font-size: 3rem;
 }
 
-.body{
-    margin-top: 10%;
+p, h1, h4 {
+    font-family: 'Raleway', sans-serif;
 }
-.cbi{
+
+.body {
+    margin-top: 5vw;
+    padding: 0 2vw;
+}
+
+.cbi {
     display: flex;
     flex-direction: row;
-    margin-top: 75px;
-    gap: 60px;
+    margin-top: 4vw;
+    gap: 3vw;
+    flex-wrap: wrap;
 }
-.bi{
-    width: 75px;
-    height: 75px;
+
+.bi {
+    width: 4vw;
+    min-width: 40px;
+    height: 4vw;
+    min-height: 40px;
     border-radius: 20%;
     background-color: rgb(213, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* 4. Media Queries for responsiveness */
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        padding: 6vw 3vw;
+    }
+    .name, .pic {
+        width: 100%;
+        min-width: 0;
+        text-align: center;
+    }
+    .boy {
+        max-width: 250px;
+        margin: 2vw auto 0 auto;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .cbi {
+        gap: 2vw;
+        margin-top: 3vw;
+        justify-content: center;
+    }
+    .bi {
+        width: 50px;
+        height: 50px;
+    }
+    .body {
+        margin-top: 6vw;
+        padding: 0 1vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        padding: 8vw 1vw;
+    }
+    .boy {
+        max-width: 140px;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    .p {
+        font-size: 0.9rem;
+    }
+    .cbi {
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .bi {
+        width: 35px;
+        height: 35px;
+    }
+    .body {
+        margin-top: 20px;
+        padding: 0 2px;
+    }
+}
+
+/* 5. Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ...existing code... */

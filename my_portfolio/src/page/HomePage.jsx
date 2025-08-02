@@ -25,7 +25,7 @@ function HomePage() {
         <div className='name'>
             <h4>Hi, I am</h4>
             <h1 className='heshan'>Heshan Hasitha</h1>
-            <p className='p' style={{textAlign: 'left'}}>Full Stack Web Development and Graphic Design. </p>
+            <p className='p' >Full Stack Web Development and Graphic Design. </p>
             <div className='cbi'>
               <a href='http://t.me/heshan904' target='_blank' rel='noopener noreferrer'> <button className='bi'><img src={tg} alt="" /></button></a>
               <a href='https://github.com/' target='_blank' rel='noopener noreferrer'><button className='bi'><img src={gh} alt="" /></button></a>

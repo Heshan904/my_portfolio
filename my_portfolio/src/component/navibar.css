@@ -1,61 +1,89 @@
-.logo{
-    height: 70px;
-    width: 70px;
+/* Use relative units and flexbox for layout */
+.logo {
+    height: 5vw;
+    width: 5vw;
 }
-.navi{
-    border: none;
-    padding: 30px;
+
+.navi {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: 100;
-    align-items: center;
     width: 100%;
-}
-.btn{
-    background: none;
-    border: none;
-    display: flex;
-    gap: 50px;
-    flex-direction: row;
-    margin-left: auto;
-}
-button{
-    background:none;
-    border: none;
-    
-    font-family: 'Inter', sans-serif;
-    font-size: 25px;
-
-
-}
-@media (max-width: 900px) {
-
-.navi{
-    border: none;
-    padding: 30px;
-    display: flex;
-    position: sticky;
-    top: 0;
+    padding: 2vw 4vw;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 100;
-    align-items: center;
-}
-.btn{
-    background: none;
+    box-sizing: border-box;
     border: none;
+}
+
+.btn {
     display: flex;
-    gap: 50px;
+    gap: 4vw;
     flex-direction: row;
     margin-left: auto;
+    background: none;
+    border: none;
 }
-button{
-    background:none;
+
+button {
+    background: none;
     border: none;
     font-family: 'Inter', sans-serif;
-    font-size: 25px;
-
-
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s;
 }
+
+button:hover {
+    color: #007bff;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .navi {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3vw 2vw;
+    }
+    .btn {
+        gap: 3vw;
+        width: 100%;
+        justify-content: flex-end;
+        margin-left: 0;
+        margin-top: 1vw;
+    }
+    button {
+        font-size: 1.2rem;
+    }
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navi {
+        padding: 4vw 1vw;
+    }
+    .btn {
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    button {
+        font-size: 1rem;
+    }
+    .logo {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+/* Responsive images */
+.logo, img {
+    max-width: 100%;
+    height: auto;
 }
